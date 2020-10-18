@@ -1,0 +1,40 @@
+.navbar-brand
+{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.navbar #myMenu .custom-nav .nav-item a {
+    color: white;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color:pink;
+}
+.back-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 90vh;
+    border-radius: 0%;
+}
+.custom-text{
+    color:white;
+}
+.main-heading{
+    margin-top: 350px;
+}
+
+@media only screen and (max-width: 600px){
+.myclass {
+   margin-top: 350px;
+   text-align: center;       
+}
+}
+
+.fi-color{
+    color: red;
+}
+.fi-color:hover{
+    color: pink;
+}
